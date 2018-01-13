@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4743fa-0acd-4acd-8292-afe1b134cce8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_3.dequeue.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_4.bubblesort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,6 +18,7 @@
     <SUITE FILE_PATH="coverage/Pydata$03_1_stack.coverage" NAME="03_1.stack Coverage Results" MODIFIED="1515815698066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$02_1_singlelinklist.coverage" NAME="02_1.singlelinklist Coverage Results" MODIFIED="1515590542213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$03_3_dequeue.coverage" NAME="03_3.dequeue Coverage Results" MODIFIED="1515817004695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pydata$03_4_bubblesort.coverage" NAME="03_4.bubblesort Coverage Results" MODIFIED="1515818635054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$2_ceshi.coverage" NAME="2.ceshi Coverage Results" MODIFIED="1515584007840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -96,11 +97,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_3.dequeue.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03_3.dequeue.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_3.dequeue.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="236">
               <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_4.bubblesort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_4.bubblesort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -128,6 +139,7 @@
         <option value="$PROJECT_DIR$/03_2.quene.py" />
         <option value="$PROJECT_DIR$/03_2.queue.py" />
         <option value="$PROJECT_DIR$/03_3.dequeue.py" />
+        <option value="$PROJECT_DIR$/03_4.bubblesort.py" />
       </list>
     </option>
   </component>
@@ -188,25 +200,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_3.dequeue">
-    <configuration default="false" name="2.ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pydata" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01_2.ceshi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.03_4.bubblesort">
     <configuration default="false" name="02_1.singlelinklist" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,6 +269,24 @@
       <module name="Pydata" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_3.dequeue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="03_4.bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pydata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_4.bubblesort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -494,19 +506,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.2.ceshi" />
-      <item index="1" class="java.lang.String" itemvalue="Python.02_1.singlelinklist" />
-      <item index="2" class="java.lang.String" itemvalue="Python.03_1.stack" />
-      <item index="3" class="java.lang.String" itemvalue="Python.03_2.queue" />
-      <item index="4" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
+      <item index="0" class="java.lang.String" itemvalue="Python.02_1.singlelinklist" />
+      <item index="1" class="java.lang.String" itemvalue="Python.03_1.stack" />
+      <item index="2" class="java.lang.String" itemvalue="Python.03_2.queue" />
+      <item index="3" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
+      <item index="4" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
-        <item index="1" class="java.lang.String" itemvalue="Python.03_2.queue" />
-        <item index="2" class="java.lang.String" itemvalue="Python.03_1.stack" />
-        <item index="3" class="java.lang.String" itemvalue="Python.02_1.singlelinklist" />
-        <item index="4" class="java.lang.String" itemvalue="Python.2.ceshi" />
+        <item index="0" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
+        <item index="2" class="java.lang.String" itemvalue="Python.03_2.queue" />
+        <item index="3" class="java.lang.String" itemvalue="Python.03_1.stack" />
+        <item index="4" class="java.lang.String" itemvalue="Python.02_1.singlelinklist" />
       </list>
     </recent_temporary>
   </component>
@@ -556,14 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1515815787147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="双端队列的基本使用">
+      <created>1515817050293</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515817050293</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="169" width="1213" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14944492" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06490179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -595,7 +614,8 @@
     <MESSAGE value="单向循环链表的操作" />
     <MESSAGE value="栈的基本使用" />
     <MESSAGE value="队列的基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="队列的基本使用" />
+    <MESSAGE value="双端队列的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="双端队列的基本使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -702,6 +722,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_4.bubblesort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
         </state>
       </provider>
