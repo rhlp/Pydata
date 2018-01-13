@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4743fa-0acd-4acd-8292-afe1b134cce8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_6.insertsort.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_7.shellsort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,11 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_6.insertsort.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03_6.insertsort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03_6.insertsort.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="437">
               <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03_7.shellsort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03_7.shellsort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -144,6 +154,7 @@
         <option value="$PROJECT_DIR$/03_4.bubblesort.py" />
         <option value="$PROJECT_DIR$/03_5.selectsort.py" />
         <option value="$PROJECT_DIR$/03_6.insertsort.py" />
+        <option value="$PROJECT_DIR$/03_7.shellsort.py" />
       </list>
     </option>
   </component>
@@ -593,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515823325051</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="插入排序的基本使用">
+      <created>1515823930446</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1515823930446</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -635,7 +653,8 @@
     <MESSAGE value="双端队列的基本使用" />
     <MESSAGE value="冒泡排序的基本使用" />
     <MESSAGE value="选择排序的基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="选择排序的基本使用" />
+    <MESSAGE value="插入排序的基本使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="插入排序的基本使用" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -766,6 +785,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_7.shellsort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="14" lean-forward="true" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
           <folding />
         </state>
       </provider>
