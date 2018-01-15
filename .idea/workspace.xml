@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f4743fa-0acd-4acd-8292-afe1b134cce8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lianxi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_1.quicksort.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Pydata$1_ceshi.coverage" NAME="1.ceshi Coverage Results" MODIFIED="1515561458471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pydata$lianxi.coverage" NAME="lianxi Coverage Results" MODIFIED="1515984631513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pydata$lianxi.coverage" NAME="lianxi Coverage Results" MODIFIED="1515987410665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$03_2_queue.coverage" NAME="03_2.queue Coverage Results" MODIFIED="1515815751241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$03_1_stack.coverage" NAME="03_1.stack Coverage Results" MODIFIED="1515815698066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$02_1_singlelinklist.coverage" NAME="02_1.singlelinklist Coverage Results" MODIFIED="1515590542213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -23,6 +23,7 @@
     <SUITE FILE_PATH="coverage/Pydata$03_6_insertsort.coverage" NAME="03_6.insertsort Coverage Results" MODIFIED="1515823887042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$03_4_bubblesort.coverage" NAME="03_4.bubblesort Coverage Results" MODIFIED="1515981133459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pydata$2_ceshi.coverage" NAME="2.ceshi Coverage Results" MODIFIED="1515584007840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pydata$04_1_quicksort.coverage" NAME="04_1.quicksort Coverage Results" MODIFIED="1515987592385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -80,11 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lianxi.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lianxi.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lianxi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="179">
+              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="04_1.quicksort.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/04_1.quicksort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -135,9 +146,9 @@
         <option value="$PROJECT_DIR$/03_5.selectsort.py" />
         <option value="$PROJECT_DIR$/03_6.insertsort.py" />
         <option value="$PROJECT_DIR$/03_7.shellsort.py" />
-        <option value="$PROJECT_DIR$/04_1.quicksort.py" />
         <option value="$PROJECT_DIR$/03_4.bubblesort.py" />
         <option value="$PROJECT_DIR$/lianxi.py" />
+        <option value="$PROJECT_DIR$/04_1.quicksort.py" />
       </list>
     </option>
   </component>
@@ -198,25 +209,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lianxi">
-    <configuration default="false" name="03_3.dequeue" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pydata" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_3.dequeue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.04_1.quicksort">
     <configuration default="false" name="03_4.bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,6 +278,24 @@
       <module name="Pydata" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianxi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="04_1.quicksort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pydata" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04_1.quicksort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -504,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.03_5.selectsort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.03_6.insertsort" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lianxi" />
+      <item index="0" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
+      <item index="1" class="java.lang.String" itemvalue="Python.03_5.selectsort" />
+      <item index="2" class="java.lang.String" itemvalue="Python.03_6.insertsort" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lianxi" />
+      <item index="4" class="java.lang.String" itemvalue="Python.04_1.quicksort" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lianxi" />
-        <item index="1" class="java.lang.String" itemvalue="Python.03_5.selectsort" />
-        <item index="2" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.03_6.insertsort" />
-        <item index="4" class="java.lang.String" itemvalue="Python.03_3.dequeue" />
+        <item index="0" class="java.lang.String" itemvalue="Python.04_1.quicksort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.lianxi" />
+        <item index="2" class="java.lang.String" itemvalue="Python.03_5.selectsort" />
+        <item index="3" class="java.lang.String" itemvalue="Python.03_4.bubblesort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.03_6.insertsort" />
       </list>
     </recent_temporary>
   </component>
@@ -601,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515824027446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="冒泡/选择/插入排序的练习">
+      <created>1515984719078</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1515984719078</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,7 +663,8 @@
     <MESSAGE value="选择排序的基本使用" />
     <MESSAGE value="插入排序的基本使用" />
     <MESSAGE value="希尔排序的基本使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="希尔排序的基本使用" />
+    <MESSAGE value="冒泡/选择/插入排序的练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="冒泡/选择/插入排序的练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04_1.quicksort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_7.shellsort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -798,8 +809,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lianxi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="179">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04_1.quicksort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
         </state>
       </provider>
